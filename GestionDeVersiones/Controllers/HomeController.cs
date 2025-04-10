@@ -18,6 +18,15 @@ public class HomeController : Controller
         return View();
     }
 
+    /// <summary>
+    /// Accion que se encarga de...
+    /// </summary>
+    /// <returns>View</returns>
+    public IActionResult ProgramacionWeb()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
